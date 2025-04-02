@@ -34,9 +34,9 @@ input_parameters <- function(c_trt, modifier_mild_moderate){
   modifier_moderate_severe<- 0.1 #modifier_moderate_severe
   modifier_mild_severe    <- 0.1 #modifier_mild_severe
   
-  modifier_MV_ICU_mild      <- modifier_MV_ICU_mild
-  modifier_MV_ICU_moderate  <- modifier_MV_ICU_moderate
-  modifier_MV_ICU_severe    <- modifier_MV_ICU_severe
+  modifier_MV_ICU_mild      <- 0.1 #modifier_MV_ICU_mild
+  modifier_MV_ICU_moderate  <- 0.1 #modifier_MV_ICU_moderate
+  modifier_MV_ICU_severe    <- 0.1 #modifier_MV_ICU_severe
   
   # Disease progression up to 7 days post-diagnosis of ARDS
   d_progression_period    <- 7
